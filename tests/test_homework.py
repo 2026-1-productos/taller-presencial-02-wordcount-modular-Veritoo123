@@ -18,6 +18,7 @@ def test_homework():
     ]:
         if not os.path.exists(path):
             raise Exception(f"'{path}' directory does not exist")
+        
 
     try:
         subprocess.run(
